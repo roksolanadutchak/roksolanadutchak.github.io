@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    flex-direction: row;
     
 }
 .container__image{
@@ -11,15 +10,10 @@
 .container__text {
     flex: 1 1 auto;
 }
-
-/* section {
-    display: flex;
-    justify-content: space-between;
-} */
-body {
-    background-color: #000000;
-    color: white;
+header {
+    background-color: #669999;
 }
-h3 {
-    color: rgb(153, 102, 102)
+section {
+    display: flex;
+    justify-content: center;
 }

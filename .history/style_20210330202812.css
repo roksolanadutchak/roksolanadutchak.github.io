@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    flex-direction: row;
     
 }
 .container__image{
@@ -12,14 +11,11 @@
     flex: 1 1 auto;
 }
 
-/* section {
+section {
     display: flex;
     justify-content: space-between;
-} */
+}
 body {
     background-color: #000000;
     color: white;
-}
-h3 {
-    color: rgb(153, 102, 102)
 }

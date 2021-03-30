@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+}
+header {
+    background-color: blueviolet;
+}

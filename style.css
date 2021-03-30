@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    background-color: #669999;
+}
+.container__image{
+    margin: 20px 30px 0 0;
+        width: 200px;
+        align-self: flex-start;
+}
+.container__text {
+    flex: 1 1 auto;
+}
+

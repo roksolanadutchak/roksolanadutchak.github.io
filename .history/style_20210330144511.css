@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    
+}
+.container + img {
+    align-self: flex-start;
+}

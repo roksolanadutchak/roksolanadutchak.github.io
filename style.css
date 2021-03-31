@@ -1,21 +1,26 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 .container__image{
-    margin: 20px 30px 0 0;
+    margin: 20px 30px 20px 20px;
         width: 200px;
         align-self: flex-start;
 }
 .container__text {
     flex: 1 1 auto;
 }
-
+.container__text a {
+    margin-left: 20px;
+}
 body {
     background-color:#f5f5f0;
     color: #2e2e1f;
+}
+.main-part {
+    margin-left: 25px;
 }
 h3 {
     color: rgb(153, 102, 102)
@@ -24,7 +29,7 @@ ul {
     list-style-type: none
 }
 img {
-    border-radius: 25px;
+    border-radius: 5px;
 }
 h1 {
     font-size: 1.7em;
